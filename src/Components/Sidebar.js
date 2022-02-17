@@ -15,7 +15,6 @@ export default function Sidebar() {
             {/*Mobile view*/}
             <div className=" bg-stone-100 flex justify-between md:hidden">
 
-
                 <button
                     className="p-4 absolute top-0 right-0"
                     onClick={toggleClass}
@@ -42,9 +41,9 @@ export default function Sidebar() {
                 </a>
 
                 <nav className="">
-                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> Home </a>
-                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> About </a>
-                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> Projects </a>
+                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> projects </a>
+                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> photogrammetry </a>
+                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> photographs </a>
                 </nav>
             </div>
         </>

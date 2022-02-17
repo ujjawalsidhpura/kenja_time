@@ -4,9 +4,8 @@ import Content from "./Components/Content";
 
 function App() {
 
-
   return (
-    <div className="App bg-sky-50">
+    <div className="App">
 
       <div className="relative min-h-screen md:flex">
 

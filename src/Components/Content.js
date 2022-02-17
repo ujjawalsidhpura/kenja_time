@@ -1,9 +1,19 @@
-import Model3D from "./Model3D"
+import Model3D from "./Model3D";
+import Projects from "./ProjectsList";
 
-export default function Sidebar() {
+
+export default function Content() {
+
     return (
-        <div className="flex-1 bg-stone-50">
-            <Model3D />
+        <div className="flex-col bg-stone-50 justify-center">
+
+            <Projects />
+
         </div>
     )
 }
+
+//             <div>
+//                 <Model3D />
+//             </div>
+
