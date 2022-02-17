@@ -1,4 +1,4 @@
-import kenja_time from "../Images/kenja_time.jpeg";
+import kenja_time from "../Data/logo_KenjaTime.jpeg";
 import { useState } from "react";
 
 export default function Sidebar() {
