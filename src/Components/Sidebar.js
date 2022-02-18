@@ -1,8 +1,9 @@
 import kenja_time from "../Data/logo_KenjaTime.jpeg";
 import { useState } from "react";
+import { NavLink } from 'react-router-dom';
+import '../input.css';
 
 export default function Sidebar() {
-
 
     const [isActive, setActive] = useState(false);
 
@@ -40,12 +41,28 @@ export default function Sidebar() {
                     <img src={kenja_time} alt="appLogo" className="object-center w-40 h-40 hover:bg-zinc-500" />
                 </a>
 
-                <nav className="">
-                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> projects </a>
-                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> photogrammetry </a>
-                    <a href="#" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500"> photographs </a>
-                </nav>
-            </div>
+                <nav>
+                    <NavLink exact to='/' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
+                        home
+                    </NavLink>
+
+                    <NavLink to='/projects' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
+                        projects
+                    </NavLink>
+
+                    <NavLink to='/models' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
+                        models
+                    </NavLink>
+
+                    <NavLink to='/photogrammetry' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
+                        photogrammetry
+                    </NavLink>
+
+                    <NavLink to='/photographs' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500" >
+                        photographs
+                    </NavLink>
+                </nav >
+            </div >
         </>
 
     )
