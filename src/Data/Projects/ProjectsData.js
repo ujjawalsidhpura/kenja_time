@@ -9,8 +9,7 @@ export default function ProjectsData() {
         project1: {
             picture: passersby1,
             title: 'TitleOne',
-            tags: '#tag1'
-
+            tags: '#tag1',
         },
         project2: {
             picture: passersby2,

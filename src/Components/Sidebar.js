@@ -42,19 +42,11 @@ export default function Sidebar() {
                 </a>
 
                 <nav>
-                    <NavLink exact to='/' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
-                        home
-                    </NavLink>
-
                     <NavLink to='/projects' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
                         projects
                     </NavLink>
 
                     <NavLink to='/models' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
-                        models
-                    </NavLink>
-
-                    <NavLink to='/photogrammetry' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
                         photogrammetry
                     </NavLink>
 
