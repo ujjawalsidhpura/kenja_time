@@ -49,10 +49,6 @@ export default function Sidebar() {
                     <NavLink to='/models' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500">
                         photogrammetry
                     </NavLink>
-
-                    <NavLink to='/photographs' activeClassName="active" className="block p-1 underline text-blue-700 py-2.5 px-4 hover:text-red-500" >
-                        photographs
-                    </NavLink>
                 </nav >
             </div >
         </>

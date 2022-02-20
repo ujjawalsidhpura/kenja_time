@@ -13,7 +13,7 @@ export default function EachProject(props) {
 
     return (
         <>
-            <div className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 w-2/3 h-auto m-auto py-8"
+            <div className=" transition ease-in-out delay-150 hover:cursor-pointer duration-300 w-2/3 h-auto m-auto py-8"
                 onClick={(e) => setShowModal(true)}>
                 <img src={picture} alt="logo" />
                 <span className="float-left text-bold">{title}</span>
